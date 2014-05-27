@@ -1,0 +1,36 @@
+{
+    "name": "zf2-boiler-app/app-core",
+    "type": "library",
+    "description": "Core module for zf2-boiler-app",
+    "minimum-stability" : "dev",
+    "require": {
+        "php": ">=5.4",
+        "ext-intl": "*",
+        "ext-pdo_mysql": "*",
+        "zendframework/zendframework": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "neilime/zf2-assets-bundle": "dev-master",
+        "neilime/zf2-twb-bundle": "dev-master",
+        "neilime/zf2-browscap": "dev-master",
+        "zf-commons/zfc-twig": "dev-master",
+        "zf-commons/zfc-rbac": "dev-master",
+        "fortawesome/font-awesome": "dev-master",
+        "twitter/bootstrap": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "bjyoungblood/bjy-profiler": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "BoilerApp\\Core": "src/"
+        },
+        "classmap" : ["Module.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
