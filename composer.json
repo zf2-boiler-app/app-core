@@ -8,7 +8,7 @@
         "ext-intl": "*",
         "ext-pdo_mysql": "*",
         "zendframework/zendframework": "dev-master",
-        "doctrine/doctrine-orm-module": "dev-master",
+        "doctrine/doctrine-mongo-odm-module": "dev-master",
         "neilime/zf2-assets-bundle": "dev-master",
         "neilime/zf2-twb-bundle": "dev-master",
         "neilime/zf2-browscap": "dev-master",
@@ -19,8 +19,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "dev-master",
+        "zendframework/zftool": "dev-master",
         "zendframework/zend-developer-tools": "dev-master",
-        "bjyoungblood/bjy-profiler": "dev-master"
+        "bjyoungblood/bjy-profiler": "dev-master",
+        "zendframework/zenddiagnostics": "dev-master"
     },
     "autoload": {
         "psr-0": {
